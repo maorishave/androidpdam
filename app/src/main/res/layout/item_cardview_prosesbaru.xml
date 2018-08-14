@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnform"
+    android:clickable="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_below="@id/appbar"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No. Bon"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  : "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/no_bon_proses_baru"
+                android:text="  bv5678cf"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  : "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tgl_bon_proses_baru"
+                android:text="  24 Mei 2018"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Pelanggan"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  : "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nama_plg_proses_baru"
+                android:text="  Bu Jayanti"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No. Pelanggan"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  : "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/no_plg_proses_baru"
+                android:text="  cf5678vf"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat Pelanggan"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  : "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/alm_plg_proses_baru"
+                android:text="  Jalan Raya ITS"
+                android:textColor="@color/blue"
+                android:textSize="15dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Permasalahan"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  : "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/msl_plg_proses_baru"
+                android:text="  Pipa air bocor"
+                android:textColor="@color/reddark"
+                android:textSize="15dp"/>
+        </TableRow>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:textColor="@color/white"
+                android:id="@+id/btnDetail_PB"
+                android:text="Lihat Detail"
+                android:textAllCaps="false"
+                android:background="@drawable/tombolpb"/>
+            <Button
+                android:layout_marginLeft="30dp"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:textColor="@color/lightblue"
+                android:id="@+id/btnForm_PB"
+                android:text="Edit Form"
+                android:textAllCaps="false"
+                android:background="@drawable/tombolpb"/>
+        </LinearLayout>
+    </TableLayout>
+</android.support.v7.widget.CardView>

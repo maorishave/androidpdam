@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">pdam_controlling</string>
+
+    <string-array name="kds_meter">
+        <item>-----</item>
+        <item>Normal</item>
+        <item>Rusak</item>
+        <item>Ngembun</item>
+        <item>Meragukan</item>
+        <item>Buram</item>
+        <item>Double Tussen</item>
+        <item>Macet</item>
+    </string-array>
+    <string-array name="kds_air">
+        <item>-----</item>
+        <item>Lancar</item>
+        <item>Kecil</item>
+        <item>Malam</item>
+        <item>TDA</item>
+    </string-array>
+    <string-array name="segel_meter">
+        <item>-----</item>
+        <item>Ada</item>
+        <item>Putus</item>
+        <item>Tidak Ada</item>
+        <item>Terpendam</item>
+    </string-array>
+    <string-array name="segel_kopling">
+        <item>-----</item>
+        <item>Ada</item>
+        <item>Putus</item>
+        <item>Tidak Ada</item>
+        <item>Terpendam</item>
+    </string-array>
+    <string-array name="pipa_phb">
+        <item>-----</item>
+        <item>Kelihatan</item>
+        <item>Terpendam</item>
+        <item>Lain-lain</item>
+    </string-array>
+    <string-array name="letak_meter">
+        <item>-----</item>
+        <item>Atas Tanah</item>
+        <item>Dalam Tandon</item>
+        <item>Rata Tanah</item>
+        <item>Tidak Ditemukan</item>
+        <item>Bawah Tanah</item>
+    </string-array>
+    <string-array name="min_charge">
+        <item>-----</item>
+        <item>Jml jiwa berkrg</item>
+        <item>Air tdk Digunakan</item>
+        <item>Dipakai Sedikit</item>
+    </string-array>
+    <string-array name="plg_pangil">
+        <item>-----</item>
+        <item>Pelanggaran</item>
+        <item>tbh pemakaian</item>
+    </string-array>
+    <string-array name="sumur">
+        <item>-----</item>
+        <item>Ada</item>
+        <item>Tidak Ada</item>
+    </string-array>
+    <string-array name="situasi_persil">
+        <item>-----</item>
+        <item>Rumah Kosong</item>
+        <item>Pintu Terkunci</item>
+    </string-array>
+
+</resources>

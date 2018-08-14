@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apps.oktaatr.pdam_controlling">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logopdam"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TugasBaruActivity" />
+        <activity android:name=".ProsesBaruActivity" />
+        <activity android:name=".KirimBaruActivity" />
+        <activity android:name=".RevisiBaruActivity" />
+        <activity android:name=".RevisiProsesActivity" />
+        <activity android:name=".RevisiKirimActivity" />
+        <activity android:name=".FormKontrolActivity" />
+        <activity android:name=".LokasiPengaturan" />
+        <activity android:name=".KontakActivity" />
+        <activity android:name=".WebsitePengaturan" />
+        <activity android:name=".CallcenterPengaturanActivity" />
+        <activity android:name=".DetailProsesBaruActivity" />
+        <activity android:name=".DetailProsesRevisiActivity" />
+        <activity android:name=".DetailKirimRevisiActivity" />
+        <activity android:name=".DetailKirimBaruActivity" />
+        <activity android:name=".DetailTugasRevisiActivity" />
+        <activity android:name=".DetailTugasBaruActivity" />
+        <activity android:name=".FormHasilKontrolActivity" />
+        <activity android:name=".TandaTanganActivity"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+        <activity android:name=".FormRevisiActivity" />
+        <activity android:name=".FormProsesBaruActivity" />
+        <activity android:name=".Main2Activity">
+        </activity>
+    </application>
+
+</manifest>

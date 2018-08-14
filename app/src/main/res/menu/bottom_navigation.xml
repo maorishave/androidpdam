@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:com.nex3z="http://schemas.android.com/tools"
+    >
+
+
+    <item
+        android:id="@+id/menu_list"
+        android:enabled="true"
+        android:icon="@drawable/ic_work_black_24dp"
+        android:title="Baru"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_proses"
+        android:enabled="true"
+        android:icon="@drawable/ic_revisi_24dp"
+        android:title="Revisi"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_akun"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_24dp"
+        android:title="Akun"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_pengaturan"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings_24dp"
+        android:title="Pengaturan"
+        app:showAsAction="ifRoom"/>
+</menu>
